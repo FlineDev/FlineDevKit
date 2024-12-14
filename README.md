@@ -8,30 +8,29 @@
 ## Auto-Imported Frameworks
 
 ### Apple Frameworks
-`FlineDevKit` automatically imports the following Apple frameworks that are essential for most iOS, macOS, and SwiftUI applications:
+`FlineDevKit` automatically imports essential Apple frameworks for iOS, macOS, and SwiftUI apps:
 
-- **[`Foundation`](https://developer.apple.com/documentation/foundation)**: Provides fundamental classes and APIs for data manipulation, networking, and file handling.
-- **[`OrderedCollections`](https://github.com/apple/swift-collections)**: Adds the ability to work with ordered collections, offering more flexible data management than standard Swift collections.
-- **[`OSLog`](https://developer.apple.com/documentation/os/logging)**: Enables efficient logging in apps with support for custom log levels and performance optimization.
-- **[`SwiftData`](https://developer.apple.com/documentation/swiftdata)**: A powerful framework for data management, enabling you to work with models and data stores easily.
-- **[`SwiftUI`](https://developer.apple.com/documentation/swiftui)**: The UI framework for building declarative user interfaces on Apple platforms.
-- **[`TipKit`](https://developer.apple.com/documentation/tipkit)**: A framework for presenting tips and onboarding experiences in a user-friendly way.
+- **[`Foundation`](https://developer.apple.com/documentation/foundation)**: Core APIs for data, networking, and files.
+- **[`OrderedCollections`](https://github.com/apple/swift-collections)**: Flexible, ordered data structures.
+- **[`OSLog`](https://developer.apple.com/documentation/os/logging)**: Efficient app logging with custom levels.
+- **[`SwiftData`](https://developer.apple.com/documentation/swiftdata)**: Simplified data management with models.
+- **[`SwiftUI`](https://developer.apple.com/documentation/swiftui)**: Declarative UI framework for Apple platforms.
+- **[`TipKit`](https://developer.apple.com/documentation/tipkit)**: Tools for tips and onboarding experiences.
 
 ### FlineDev Frameworks
-`FlineDevKit` also imports my own frameworks, tailored for efficient development with modern Swift practices:
+`FlineDevKit` includes my own frameworks for modern Swift development:
 
-- **[`FreemiumKit`](https://freemiumkit.app)**: Simplifies the integration of in-app purchases and subscription models in your apps. ([Setup Guide](https://freemiumkit.app/documentation/freemiumkit/setupguide))
-- **[`HandySwift`](https://github.com/FlineDev/HandySwift)**: A collection of useful Swift extensions and helpers to streamline everyday development tasks.
-- **[`HandySwiftUI`](https://github.com/FlineDev/HandySwiftUI)**: SwiftUI-specific extensions and utilities that make building interfaces faster and more flexible.
-- **[`LinksKit`](https://github.com/FlineDev/LinksKit)**: Provides an easy way to add links to FAQs, support, legal documents, and more, directly in your app.
-- **[`ReviewKit`](https://github.com/FlineDev/ReviewKit)**: A framework for managing app review prompts and handling review-related workflows in your app.
+- **[`FreemiumKit`](https://freemiumkit.app)**: Simplifies in-app purchases. ([Setup Guide](https://freemiumkit.app/documentation/freemiumkit/setupguide))
+- **[`HandySwift`](https://github.com/FlineDev/HandySwift)**: Useful extensions for everyday tasks.
+- **[`HandySwiftUI`](https://github.com/FlineDev/HandySwiftUI)**: SwiftUI-specific tools for faster UI building.
+- **[`LinksKit`](https://github.com/FlineDev/LinksKit)**: Easy linking to FAQs, support, and legal docs.
+- **[`ReviewKit`](https://github.com/FlineDev/ReviewKit)**: Handles app review prompts and workflows.
 
 ### 3rd-Party Frameworks
-Finally, `FlineDevKit` includes very few hand-picked third-party libraries that I recommend for analytics and managing collections in SwiftUI:
+`FlineDevKit` also includes these recommended libraries:
 
-- **[`IdentifiedCollections`](https://github.com/pointfreeco/swift-identified-collections)**: A collection of types that support unique identifiers, making it easier to work with data that requires identity management.
-- **[`TelemetryDeck`](https://github.com/TelemetryDeck/SwiftSDK)**: A tool for tracking app analytics, providing insights on user behavior and feature usage. ([Setup Guide](https://telemetrydeck.com/docs/guides/swift-setup/))
-
+- **[`IdentifiedCollections`](https://github.com/pointfreeco/swift-identified-collections)**: Simplifies managing uniquely identified data.
+- **[`TelemetryDeck`](https://github.com/TelemetryDeck/SwiftSDK)**: Tracks app analytics and user behavior. ([Setup Guide](https://telemetrydeck.com/docs/guides/swift-setup/))
 
 ## Usage
 
