@@ -2,7 +2,7 @@
 
 # FlineDevKit
 
-`FlineDevKit` is a framework that simplifies your development process by automatically importing the most common frameworks I use in every app I create. The core of the library is [FlineDevKit.swift](https://github.com/FlineDev/FlineDevKit/blob/main/Sources/FlineDevKit/FlineDevKit.swift), which contains a collection of `@_exported import` statements. This eliminates the need to manually import these frameworks in every Swift file of your app.
+`FlineDevKit` is a framework that simplifies the development process by automatically importing the most common frameworks I recommond for every app. The core of the library is [FlineDevKit.swift](https://github.com/FlineDev/FlineDevKit/blob/main/Sources/FlineDevKit/FlineDevKit.swift), which contains a collection of `@_exported import` statements. This eliminates the need to manually import these frameworks in every Swift file of your app.
 
 
 ## Auto-Imported Frameworks
