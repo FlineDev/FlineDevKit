@@ -10,7 +10,6 @@ let package = Package(
       .package(url: "https://github.com/apple/swift-collections.git", from: "1.1.4"),
 
       // FlineDev
-      .package(url: "https://github.com/FlineDev/FreemiumKit.git", from: "1.16.0"),
       .package(url: "https://github.com/FlineDev/HandySwift.git", branch: "main"),
       .package(url: "https://github.com/FlineDev/HandySwiftUI.git", branch: "main"),
       .package(url: "https://github.com/FlineDev/LinksKit.git", branch: "main"),
@@ -28,7 +27,6 @@ let package = Package(
             .product(name: "OrderedCollections", package: "swift-collections"),
 
             // FlineDev
-            .product(name: "FreemiumKit", package: "FreemiumKit"),
             .product(name: "HandySwift", package: "HandySwift"),
             .product(name: "HandySwiftUI", package: "HandySwiftUI"),
             .product(name: "LinksKit", package: "LinksKit"),

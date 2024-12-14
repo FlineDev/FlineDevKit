@@ -7,7 +7,6 @@
 @_exported import TipKit
 
 // FlineDev
-@_exported import FreemiumKit
 @_exported import HandySwift
 @_exported import HandySwiftUI
 @_exported import LinksKit
