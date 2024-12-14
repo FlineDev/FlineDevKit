@@ -1,19 +1,57 @@
-![Essentials Logo](https://github.com/FlineDev/Foundation/blob/main/Logo.png?raw=true)
+![FlineDevKit Logo](https://github.com/FlineDev/Foundation/blob/main/Logo.png?raw=true)
 
-# Essentials
+# FlineDevKit
 
-This framework mainly consists of the files [SwiftUIPlus.swift](https://github.com/FlineDev/Foundation/blob/main/Sources/SwiftUIPlus/SwiftUIPlus.swift) and  [FoundationPlus.swift](https://github.com/FlineDev/Foundation/blob/main/Sources/FoundationPlus/FoundationPlus.swift) which contain just a collection of `@_exported import` statements of frameworks I use in every new app.
+`FlineDevKit` is a framework that simplifies your development process by automatically importing the most common frameworks I use in every app I create. The core of the library is [FlineDevKit.swift](https://github.com/FlineDev/FlineDevKit/blob/main/Sources/FlineDevKit/FlineDevKit.swift), which contains a collection of `@_exported import` statements. This eliminates the need to manually import these frameworks in every Swift file of your app.
+
+
+## Auto-Imported Frameworks
+
+### Apple Frameworks
+`FlineDevKit` automatically imports the following Apple frameworks that are essential for most iOS, macOS, and SwiftUI applications:
+
+- **[`Foundation`](https://developer.apple.com/documentation/foundation)**: Provides fundamental classes and APIs for data manipulation, networking, and file handling.
+- **[`OrderedCollections`](https://github.com/apple/swift-collections)**: Adds the ability to work with ordered collections, offering more flexible data management than standard Swift collections.
+- **[`OSLog`](https://developer.apple.com/documentation/os/logging)**: Enables efficient logging in apps with support for custom log levels and performance optimization.
+- **[`SwiftData`](https://developer.apple.com/documentation/swiftdata)**: A powerful framework for data management, enabling you to work with models and data stores easily.
+- **[`SwiftUI`](https://developer.apple.com/documentation/swiftui)**: The UI framework for building declarative user interfaces on Apple platforms.
+- **[`TipKit`](https://developer.apple.com/documentation/tipkit)**: A framework for presenting tips and onboarding experiences in a user-friendly way.
+
+### FlineDev Frameworks
+`FlineDevKit` also imports my own frameworks, tailored for efficient development with modern Swift practices:
+
+- **[`FreemiumKit`](https://freemiumkit.app)**: Simplifies the integration of in-app purchases and subscription models in your apps. ([Setup Guide](https://freemiumkit.app/documentation/freemiumkit/setupguide))
+- **[`HandySwift`](https://github.com/FlineDev/HandySwift)**: A collection of useful Swift extensions and helpers to streamline everyday development tasks.
+- **[`HandySwiftUI`](https://github.com/FlineDev/HandySwiftUI)**: SwiftUI-specific extensions and utilities that make building interfaces faster and more flexible.
+- **[`LinksKit`](https://github.com/FlineDev/LinksKit)**: Provides an easy way to add links to FAQs, support, legal documents, and more, directly in your app.
+- **[`ReviewKit`](https://github.com/FlineDev/ReviewKit)**: A framework for managing app review prompts and handling review-related workflows in your app.
+
+### 3rd-Party Frameworks
+Finally, `FlineDevKit` includes very few hand-picked third-party libraries that I recommend for analytics and managing collections in SwiftUI:
+
+- **[`IdentifiedCollections`](https://github.com/pointfreeco/swift-identified-collections)**: A collection of types that support unique identifiers, making it easier to work with data that requires identity management.
+- **[`TelemetryDeck`](https://github.com/TelemetryDeck/SwiftSDK)**: A tool for tracking app analytics, providing insights on user behavior and feature usage. ([Setup Guide](https://telemetrydeck.com/docs/guides/swift-setup/))
 
 
 ## Usage
 
-Just add `https://github.com/FlineDev/Essentials.git` as a Swift package, referencing the `main` branch and let Xcode load all commonly used dependencies.
+To use `FlineDevKit`, simply add it to your project as a Swift package:
+
+1. Add the following URL as a Swift package dependency in Xcode:  
+   `https://github.com/FlineDev/FlineDevKit.git`
+2. Reference the `main` branch, and let Xcode automatically load all the recommended dependencies.
 
 ![Package Mapping in Xcode](https://github.com/FlineDev/Foundation/blob/main/Images/PackageMappingInXcode.png?raw=true)
 
-Then, simply import `SwiftUIPlus` or `FoundationPlus` in your app or test targets Swift files and you no longer need to import `Foundation`, `SwiftUI`, `SwiftData`, `OSLog`, and a couple of other frameworks to eliminate the need for repeated imports. This serves a very similar purpose like the `import SwiftUI` or `import Foundation` Apple adds to every new Swift(UI) file by default, which is why I named the targets `SwiftUIPlus` and `FoundationPlus`, respectively.
+After adding the package, you can import `FlineDevKit` in your app's Swift files. You’ll no longer need to import individual frameworks like `Foundation`, `SwiftUI`, `SwiftData`, `OSLog`, and others. This works similarly to how Apple automatically adds `import SwiftUI` or `import Foundation` by default in new SwiftUI files. 
 
-You are free to reference this framework as-is in your app, but note that I tend to use the latest Swift tools version at all times and that I might be adding or replacing frameworks over time without notice. So you might prefer to fork it and adjust it to your needs instead. That's mostly why I made this public.
+For example, when you create a new SwiftUI view, SwiftUI itself imports several underlying libraries, such as `Foundation`, `CoreGraphics`, and others, which are necessary for the view to work properly. Similarly, when you import `FlineDevKit`, it will include all the necessary dependencies behind the scenes, so you don’t need to worry about importing each one individually. This makes your code cleaner and reduces the need to manage numerous imports, making it easier to maintain and scale your app.
+
+By using `FlineDevKit`, you’ll also automatically have access to my personal libraries such as `ReviewKit`, `LinksKit`, `HandySwift`, `HandySwiftUI`, and `FreemiumKit`, which I highly recommend for common app features.
+
+Feel free to use this package as-is or fork it and adjust it to your own needs! But note that you don't need to fork it if you want to use most of my libraries except maybe for one or two. There are no side effects if you simply ignore them, each library is quite small in its own regard and none of them do automatic work in the background unless you explicitly use them.
+
+I will add a few more libraries I am currently working on, such as `ErrorKit` for improved error handling. But those will also be well designed, extensively documented, small in footprint and generally useful for every app, or else I wouldn't add them here. Promise!
 
 
 ## License
