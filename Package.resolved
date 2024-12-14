@@ -1,14 +1,6 @@
 {
+  "originHash" : "2755a72d09040e6b06b042edf757595d983a8b171db4b5447707843e77ac500b",
   "pins" : [
-    {
-      "identity" : "freemiumkit",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/FlineDev/FreemiumKit.git",
-      "state" : {
-        "revision" : "602b69b45c0e827ef1514c6386ed762b6dba7747",
-        "version" : "1.16.0"
-      }
-    },
     {
       "identity" : "handyswift",
       "kind" : "remoteSourceControl",
@@ -73,5 +65,5 @@
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }
