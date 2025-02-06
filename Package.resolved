@@ -1,4 +1,5 @@
 {
+  "originHash" : "ebd4665c4a5a504734a4f57069900d09f36be38b14b8ffc3ef64886684e19255",
   "pins" : [
     {
       "identity" : "freemiumkit",
@@ -64,6 +65,15 @@
       }
     },
     {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-syntax.git",
+      "state" : {
+        "revision" : "0687f71944021d616d34d922343dcef086855920",
+        "version" : "600.0.1"
+      }
+    },
+    {
       "identity" : "swiftsdk",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/TelemetryDeck/SwiftSDK.git",
@@ -71,7 +81,16 @@
         "revision" : "e1a5f4ea47888e7e40cb2d40bea43ed4f1f5bfff",
         "version" : "2.6.1"
       }
+    },
+    {
+      "identity" : "translatekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/FlineDev/TranslateKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e1e9c41a674e642ae110b884d8106fa96ee44a70"
+      }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

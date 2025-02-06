@@ -15,6 +15,7 @@ let package = Package(
       .package(url: "https://github.com/FlineDev/HandySwiftUI.git", branch: "main"),
       .package(url: "https://github.com/FlineDev/LinksKit.git", branch: "main"),
       .package(url: "https://github.com/FlineDev/ReviewKit.git", branch: "main"),
+      .package(url: "https://github.com/FlineDev/TranslateKit.git", branch: "main"),
 
       // 3rd-Party
       .package(url: "https://github.com/pointfreeco/swift-identified-collections.git", from: "1.0.0"),
@@ -33,6 +34,7 @@ let package = Package(
             .product(name: "HandySwiftUI", package: "HandySwiftUI"),
             .product(name: "LinksKit", package: "LinksKit"),
             .product(name: "ReviewKit", package: "ReviewKit"),
+            .product(name: "TranslateKit", package: "TranslateKit"),
 
             // 3rd-Party
             .product(name: "IdentifiedCollections", package: "swift-identified-collections"),

@@ -12,6 +12,7 @@
 @_exported import HandySwiftUI
 @_exported import LinksKit
 @_exported import ReviewKit
+@_exported import TranslateKit
 
 // 3rd-Party
 @_exported import IdentifiedCollections
