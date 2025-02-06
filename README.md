@@ -25,6 +25,7 @@
 - **[`HandySwiftUI`](https://github.com/FlineDev/HandySwiftUI)**: SwiftUI-specific tools for faster UI building.
 - **[`LinksKit`](https://github.com/FlineDev/LinksKit)**: Easy linking to FAQs, support, and legal docs.
 - **[`ReviewKit`](https://github.com/FlineDev/ReviewKit)**: Handles app review prompts and workflows.
+- **[`TranslateKit`](https://github.com/FlineDev/TranslateKit)**: Built-in translations (1000+) & semantic key generation for Swift apps.
 
 ### 3rd-Party Frameworks
 `FlineDevKit` also includes these recommended libraries:
