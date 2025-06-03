@@ -1,13 +1,22 @@
 {
-  "originHash" : "ebd4665c4a5a504734a4f57069900d09f36be38b14b8ffc3ef64886684e19255",
+  "originHash" : "7cfa0306da1831077dd170313da09f97626eb57508c7a558d2987415c628de44",
   "pins" : [
+    {
+      "identity" : "errorkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/FlineDev/ErrorKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "2c1aa891c3ddcd2c2d86cbf3d7b63caeb0319253"
+      }
+    },
     {
       "identity" : "freemiumkit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/FlineDev/FreemiumKit.git",
       "state" : {
-        "revision" : "602b69b45c0e827ef1514c6386ed762b6dba7747",
-        "version" : "1.16.0"
+        "revision" : "3ba71311448d2c7f706b0b5e34b014999a1af856",
+        "version" : "1.18.0"
       }
     },
     {
@@ -16,7 +25,7 @@
       "location" : "https://github.com/FlineDev/HandySwift.git",
       "state" : {
         "branch" : "main",
-        "revision" : "d53cbc21b9a44c3730615ce2ef4493f9f8379a4f"
+        "revision" : "e9defa22f6c0f3ae529b6256375d679061f830ee"
       }
     },
     {
@@ -25,7 +34,7 @@
       "location" : "https://github.com/FlineDev/HandySwiftUI.git",
       "state" : {
         "branch" : "main",
-        "revision" : "638b7cab68c7455ca47efccb9ba6f5540b3a144b"
+        "revision" : "d8a4f8e3d3148ea85c379d804e6ad2199b93b5ec"
       }
     },
     {
@@ -34,7 +43,7 @@
       "location" : "https://github.com/FlineDev/LinksKit.git",
       "state" : {
         "branch" : "main",
-        "revision" : "b15a223647bc614e92201edb754d92fef7902d74"
+        "revision" : "ee42ce9a0859794971fd6448ee916db5088595cb"
       }
     },
     {
@@ -43,7 +52,16 @@
       "location" : "https://github.com/FlineDev/ReviewKit.git",
       "state" : {
         "branch" : "main",
-        "revision" : "31330de1b0f9125107b60468a8e1678ba1c1d382"
+        "revision" : "6cf7911ecf14ced415b12f50344f9a5a68049d2f"
+      }
+    },
+    {
+      "identity" : "swift-asn1",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-asn1.git",
+      "state" : {
+        "revision" : "a54383ada6cecde007d374f58f864e29370ba5c3",
+        "version" : "1.3.2"
       }
     },
     {
@@ -51,8 +69,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-collections.git",
       "state" : {
-        "revision" : "671108c96644956dddcd89dd59c203dcdb36cec7",
-        "version" : "1.1.4"
+        "revision" : "c1805596154bb3a265fd91b8ac0c4433b4348fb0",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "swift-crypto",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-crypto.git",
+      "state" : {
+        "revision" : "e8d6eba1fef23ae5b359c46b03f7d94be2f41fed",
+        "version" : "3.12.3"
       }
     },
     {
@@ -60,8 +87,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/pointfreeco/swift-identified-collections.git",
       "state" : {
-        "revision" : "2f5ab6e091dd032b63dacbda052405756010dc3b",
-        "version" : "1.1.0"
+        "revision" : "322d9ffeeba85c9f7c4984b39422ec7cc3c56597",
+        "version" : "1.1.1"
       }
     },
     {
@@ -69,8 +96,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-syntax.git",
       "state" : {
-        "revision" : "0687f71944021d616d34d922343dcef086855920",
-        "version" : "600.0.1"
+        "revision" : "f99ae8aa18f0cf0d53481901f88a0991dc3bd4a2",
+        "version" : "601.0.1"
       }
     },
     {
@@ -78,8 +105,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/TelemetryDeck/SwiftSDK.git",
       "state" : {
-        "revision" : "e1a5f4ea47888e7e40cb2d40bea43ed4f1f5bfff",
-        "version" : "2.6.1"
+        "revision" : "a7fd1eb469589a3c8fd8cc3abe19b092b5d674dc",
+        "version" : "2.9.4"
       }
     },
     {
@@ -88,7 +115,7 @@
       "location" : "https://github.com/FlineDev/TranslateKit.git",
       "state" : {
         "branch" : "main",
-        "revision" : "e1e9c41a674e642ae110b884d8106fa96ee44a70"
+        "revision" : "03f38dcc0b64aaa9c33008c25f4798bf40272b7f"
       }
     }
   ],
