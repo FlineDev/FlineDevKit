@@ -20,6 +20,7 @@
 ### FlineDev Frameworks
 `FlineDevKit` includes my own frameworks for modern Swift development:
 
+- **[`ErrorKit`](https://github.com/FlineDev/ErrorKit)**: Improved error handling with user-friendly messages and structured logging.
 - **[`FreemiumKit`](https://freemiumkit.app)**: Simplifies in-app purchases. ([Setup Guide](https://freemiumkit.app/documentation/freemiumkit/setupguide))
 - **[`HandySwift`](https://github.com/FlineDev/HandySwift)**: Useful extensions for everyday tasks.
 - **[`HandySwiftUI`](https://github.com/FlineDev/HandySwiftUI)**: SwiftUI-specific tools for faster UI building.
@@ -47,11 +48,9 @@ After adding the package, you can import `FlineDevKit` in your app's Swift files
 
 For example, when you create a new SwiftUI view, SwiftUI itself imports several underlying libraries, such as `Foundation`, `CoreGraphics`, and others, which are necessary for the view to work properly. Similarly, when you import `FlineDevKit`, it will include all the necessary dependencies behind the scenes, so you don’t need to worry about importing each one individually. This makes your code cleaner and reduces the need to manage numerous imports, making it easier to maintain and scale your app.
 
-By using `FlineDevKit`, you’ll also automatically have access to my personal libraries such as `ReviewKit`, `LinksKit`, `HandySwift`, `HandySwiftUI`, and `FreemiumKit`, which I highly recommend for common app features.
+By using `FlineDevKit`, you'll also automatically have access to my personal libraries such as `ErrorKit`, `FreemiumKit`, `HandySwift`, `HandySwiftUI`, `LinksKit`, `ReviewKit`, and `TranslateKit`, which I highly recommend for common app features.
 
 Feel free to use this package as-is or fork it and adjust it to your own needs! But note that you don't need to fork it if you want to use most of my libraries except maybe for one or two. There are no side effects if you simply ignore them, each library is quite small in its own regard and none of them do automatic work in the background unless you explicitly use them.
-
-I will add a few more libraries I am currently working on, such as `ErrorKit` for improved error handling. But those will also be well designed, extensively documented, small in footprint and generally useful for every app, or else I wouldn't add them here. Promise!
 
 
 ## License
